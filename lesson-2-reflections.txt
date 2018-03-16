@@ -1,0 +1,17 @@
+To initialise a new git repository:
+
+
+Navigate to the directory and run git init
+
+Using reflections directory to learn git basics
+
+cd Programming/version-control/refelections
+
+What happens when you initialise a repository? Why do you need to do it?
+
+A .git floder is created, this will help to kep trak of how the files are changing.
+
+
+
+
+

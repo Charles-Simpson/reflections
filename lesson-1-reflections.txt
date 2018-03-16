@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+By giving the relevant line numbers it was easy to see the two versions side by side in Kile.
+
+Deleted and inserted text is given so that the changes and the regions changed can be identified.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Some programs may increase in sophistication and one may become confused as to the order op the layout.
+
+Ideas may be tried and found not to work as well as expected and may need to be back tracked.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manually creating a commit means that the commits can be made after a meaningful change has been made where as time based commits may come at an arbitary point in an update and may be difficult to interpret.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+I assume git saves on the computer and does not need to upload files to the web. Writting a large system may require that it be broken down it to smaller files to ease read ability leading to multiple changes that need to be recorded similtaeneously.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log can be used to track the purpose of each change, git diff can be used to monitor the difference between two files.
+
+How might using version control make you more confident to make changes that could break something?
+
+No need to rember how things were. A specified commit made befor an experimantal change means tht if the change fails to deliver we can revert to the previous version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Maybe fro tracking the changes in a LaTeX document?
+
