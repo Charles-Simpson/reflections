@@ -28,7 +28,11 @@ No need to rember how things were. A specified commit made befor an experimantal
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-Maybe fro tracking the changes in a LaTeX document?
+Maybe for tracking the changes in a LaTeX document?
 
 
 Alteration test line
+
+Test git diff to test staging area
+
+works after file saved
