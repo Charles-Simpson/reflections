@@ -9,7 +9,24 @@ cd Programming/version-control/refelections
 
 What happens when you initialise a repository? Why do you need to do it?
 
-A .git floder is created, this will help to kep trak of how the files are changing.
+A .git floder is created, this will help to kep track of how the files are changing.
+
+
+To add files to git use git add
+
+Files appear to need to be added individually
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Workin directory contains the files that will be used. The repository contains a history of changes that can be used to reconstucr the files for the current checkedout commit. the staging are list which files should be tracked by the repository.
+
+To use git commit needed reconfigure for gedit
+git config --global core.editor "gedit -s"
+
+I am now trying out to see if it records chages such as as the one I am now writing.
+
+Am am changing this file but nothing is happening
+
 
 
 
