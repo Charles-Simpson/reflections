@@ -16,16 +16,18 @@ To add files to git use git add
 
 Files appear to need to be added individually
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
 
-Workin directory contains the files that will be used. The repository contains a history of changes that can be used to reconstucr the files for the current checkedout commit. the staging are list which files should be tracked by the repository.
+Working directory contains the files that will be used. The repository contains a history of changes that can be used to reconstuct the files for the current checkout commit. The staging area lists which files should be tracked by the repository.
 
-To use git commit needed reconfigure for gedit
+To use git commit needed to reconfigure how to use gedit:
+
 git config --global core.editor "gedit -s"
 
-I am now trying out to see if it records chages such as as the one I am now writing.
+I am now trying out to see if it records changes such as as the one I am now writing.
 
-Am am changing this file but nothing is happening
+I am  changing this file but nothing is happening.
 
 
 
