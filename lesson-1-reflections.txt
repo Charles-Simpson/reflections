@@ -24,7 +24,7 @@ git log can be used to track the purpose of each change, git diff can be used to
 
 How might using version control make you more confident to make changes that could break something?
 
-No need to rember how things were. A specified commit made befor an experimantal change means tht if the change fails to deliver we can revert to the previous version.
+No need to rember how things were. A specified commit made befor an experimental change means tht if the change fails to deliver we can revert to the previous version.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
