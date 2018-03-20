@@ -5,18 +5,18 @@ Navigate to the directory and run git init
 
 Using reflections directory to learn git basics
 
-cd Programming/version-control/refelections
+cd Programming/version-control/reflections
 
 What happens when you initialise a repository? Why do you need to do it?
 
-A .git floder is created, this will help to kep track of how the files are changing.
+A .git folder is created, this will help to keep track of how the files are changing.
 
 
 To add files to git use git add
 
 Files appear to need to be added individually
 
-How is the staging area different from the working directory and the repository? 
+How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 Working directory contains the files that will be used. The repository contains a history of changes that can be used to reconstuct the files for the current checkout commit. The staging area lists which files should be tracked by the repository.
@@ -33,8 +33,16 @@ Now try this.
 
 Try again.
 
+How can you use the staging area to make sure you have one commit per logical change?
 
+By only moving the files changed to the staging area this will localise the scope of the change.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
+To prototype changes or if we have a MATLAB program we could produce a command line version to check the maths and use this as the basis for a separate  branch which implements a gui.
 
+How do the diagrams help you visualize the branch structure?
 
+Diagrams show how branches can be backtraced, where splits take place and where any unreachable points may be.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
