@@ -1,53 +1,24 @@
-To initialise a new git repository:
+This lesson is about using github.
 
+The first thing to do is to create a folder on the github site
 
-Navigate to the directory and run git init
+This is known as a remote
 
-Using reflections directory to learn git basics
+Run the command
 
-cd Programming/version-control/reflections
+git remote add origin git@github.com/Charles-Simpson/reflections
 
-What happens when you initialise a repository? Why do you need to do it?
+git remote then returns origin as the remote folder?
 
-A .git folder is created, this will help to keep track of how the files are changing.
+the above instructions used ssh which caused problems, newer instruction is
+to used https:
 
+git remote add origin https://github.com/Charles-Simpson/reflections.git
 
-To add files to git use git add
+then run
 
-Files appear to need to be added individually
+git push -u origin master
 
-How is the staging area different from the working directory and the repository?
-What value do you think it offers?
+When would you want to use a remote repository rather than keeping all your work local?
 
-Working directory contains the files that will be used. The repository contains a history of changes that can be used to reconstuct the files for the current checkout commit. The staging area lists which files should be tracked by the repository.
-
-To use git commit needed to reconfigure how to use gedit:
-
-git config --global core.editor "gedit -s"
-
-I am now trying out to see if it records changes such as as the one I am now writing.
-
-I am  changing this file but nothing is happening.
-
-Now try this.
-
-Try again.
-
-How can you use the staging area to make sure you have one commit per logical change?
-
-By only moving the files changed to the staging area this will localise the scope of the change.
-
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-
-To prototype changes or if we have a MATLAB program we could produce a command line version to check the maths and use this as the basis for a separate  branch which implements a gui.
-
-How do the diagrams help you visualize the branch structure?
-
-Diagrams show how branches can be backtraced, where splits take place and where any unreachable points may be.
-
-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-
-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-
-Git will not forget to include things but will not be able to resolve all conflicts so will require manual intervention.
-Manually merging may mean that some changes are overlooked.
+If you are working with other people on a group project or are working on a project from different locations.
